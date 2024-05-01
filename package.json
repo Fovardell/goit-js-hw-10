@@ -1,12 +1,13 @@
 {
-  "name": "vanilla-app-template",
+  "name": "goit-js-hw-10",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build --base=/vanilla-app-template/",
-    "preview": "vite preview"
+    "start": "vite",
+    "build": "vite build --base=/goit-js-hw-10/",
+    "preview": "vite preview",
+    "p": "bash push.sh"
   },
   "devDependencies": {
     "vite": "^4.5.2",
@@ -17,5 +18,7 @@
   "dependencies": {
     "vite-plugin-full-reload": "^1.0.5",
     "vite-plugin-html-inject": "^1.0.1"
-  }
+  },
+  "description": "Этот проект был создан при помощи Vite. Для знакомства и настройки\r дополнительных возможностей [обратись к документации](https://vitejs.dev/).",
+  "main": "vite.config.js"
 }
