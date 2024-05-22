@@ -1,0 +1,2 @@
+import"./assets/modulepreload-polyfill-3cfb730f.js";/* empty css                      */import{i as r}from"./assets/vendor-77e16229.js";const m=document.querySelector("form");m.addEventListener("submit",t=>{t.preventDefault();const s=Number(t.target.delay.value),i=t.target.state.value;new Promise((e,o)=>{setTimeout(()=>{i==="fulfilled"?e(`✅ Fulfilled promise in ${s} ms`):o(`❌ Rejected promise in ${s} ms`)},s)}).then(e=>{r.success({title:"Success",message:e})}).catch(e=>{r.error({title:"Error",message:e})})});
+//# sourceMappingURL=commonHelpers2.js.map
