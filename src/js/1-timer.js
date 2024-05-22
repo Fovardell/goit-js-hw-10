@@ -26,7 +26,7 @@ let options = {
 		userSelectedDate = selectedDates[0];
 		const timeUntilEnd = userSelectedDate - new Date();
 		if (timeUntilEnd <= 0) {
-			iziToast.error({ title: "Error", message: "Please choose a date in the future" });
+			iziToast.error({ title: "Error", message: "Please choose a date in the future", position: 'topRight' });
 			button.setAttribute('disabled', "");
 			return;
 		}
